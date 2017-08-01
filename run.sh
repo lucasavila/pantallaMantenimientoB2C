@@ -1,5 +1,6 @@
 #!/bin/bash
 
+docker rmi docker.dev.redbee.io/pantalla-mantenimiento-sep
 docker stop pantalla-mantenimiento
 docker rm pantalla-mantenimiento
 
