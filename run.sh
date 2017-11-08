@@ -1,7 +1,7 @@
 #!/bin/bash
 
-docker rmi docker.dev.redbee.io/pantalla-mantenimiento-sep
-docker stop pantalla-mantenimiento
-docker rm pantalla-mantenimiento
+docker rmi docker.dev.redbee.io/pantalla-mantenimiento-b2c
+docker stop pantalla-mantenimiento-b2c
+docker rm pantalla-mantenimiento-b2c
 
-docker run --name pantalla-mantenimiento -p 8888:80 -d docker.dev.redbee.io/pantalla-mantenimiento-sep
+docker run --name pantalla-mantenimiento -p 8889:80 -d docker.dev.redbee.io/pantalla-mantenimiento-b2c
