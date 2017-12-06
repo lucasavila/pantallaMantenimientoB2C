@@ -4,7 +4,6 @@
  * @ngdoc function
  * @name pantallaMantenimientoApp.controller:MainCtrl
  * @description
- * # MainCtrl
  * Controller of the pantallaMantenimientoApp
  */
 angular.module('pantallaMantenimientoApp')
